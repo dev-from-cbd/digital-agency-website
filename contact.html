@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Creative Agency</title>
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <title>Digital Agency</title>
   </head>
   <body>
     <header>
-      <div class="logo">Creative Agency</div>
+      <div class="logo">Digital Agency</div>
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="navigation-link">Contact</li>
         </ul>
+
         <div class="social-bar">
           <ul>
             <li>
-              <a href="https://facebook.com">
-                <img src="images/facebook.png" target="_blank" alt="" />
+              <a href="https://github.com/dev-from-cbd">
+                <img src="images/github-icon.png" alt="GitHub" />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com">
-                <img src="images/twitter.png" target="_blank" alt="" />
+              <a href="https://www.linkedin.com/in/neoguru">
+                <img src="images/linkedin-icon.png" alt="LinkedIn" />
               </a>
             </li>
             <li>
-              <a href="https://instagram.com">
-                <img src="images/instagram.png" target="_blank" alt="" />
+              <a href="https://www.facebook.com/darentacom">
+                <img src="images/facebook-icon.png" alt="FaceBook" />
               </a>
             </li>
           </ul>
-          <a href="mailto:you@email.com" class="email-icon">
-            <img src="images/email.png" alt="" />
+          <a href="mailto:veryfatwombat@gmail.com" class="email-icon">
+            <img src="images/email.png" alt="email" />
           </a>
         </div>
       </div>
@@ -47,28 +51,56 @@
       <div class="title">
         <h1>Contact us</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-          iusto molestias accusamus rem nobis est, et laborum harum doloremque
-          nemo non, minima quos totam labore
+          Our main communication channel is email, but if this is not convenient
+          for you for the first contact, then you can use the feedback form, a
+          meeting in our office, a phone call or pigeon mail)
         </p>
       </div>
       <div class="contact">
+        <div class="contact-info">
+          <div class="info-box">
+            <img src="images/email.png" class="contact-icon" alt="Email" />
+            <div class="details">
+              <h4>Email</h4>
+              <a href="mailto:veryfatwombat@gmail.com"
+                >veryfatwombat@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div class="info-box">
+            <img src="images/address.png" class="contact-icon" alt="Address" />
+            <div class="details">
+              <h4>Address</h4>
+              <p>5 Loch St, Stepney SA, 5086</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <img src="images/call.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Call</h4>
+              <a href="tel:+620427075009">0427075009</a>
+            </div>
+          </div>
+        </div>
+
         <div class="contact-form">
-          <form>
+          <form action="https://formspree.io/f/mvolrlrd" method="POST">
             <div class="row">
               <div class="input50">
-                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="First Name" name="first-name" />
               </div>
               <div class="input50">
-                <input type="text" placeholder="Last Name" />
+                <input type="text" placeholder="Last Name" name="last-name" />
               </div>
             </div>
             <div class="row">
               <div class="input50">
-                <input type="text" placeholder="Email" />
+                <input type="email" placeholder="Email" name="email" />
               </div>
               <div class="input50">
-                <input type="text" placeholder="Subject" />
+                <input type="text" placeholder="Subject" name="subject" />
               </div>
             </div>
             <div class="row">
@@ -82,32 +114,6 @@
               </div>
             </div>
           </form>
-        </div>
-
-        <div class="contact-info">
-          <div class="info-box">
-            <img src="images/address.png" class="contact-icon" alt="" />
-            <div class="details">
-              <h4>Address</h4>
-              <p>28 Neon Tower, New York City, USA</p>
-            </div>
-          </div>
-          <div class="info-box">
-            <img src="images/email.png" class="contact-icon" alt="" />
-            <div class="details">
-              <h4>Email</h4>
-              <a href="mailto:anyone@example.com">anyone@example.com</a>
-              <a href="mailto:anyone@example.com">anyone@example.com</a>
-            </div>
-          </div>
-          <div class="info-box">
-            <img src="images/call.png" class="contact-icon" alt="" />
-            <div class="details">
-              <h4>Call</h4>
-              <a href="tel:+19785555555">+1 978 555 5555</a>
-              <a href="tel:+19784444444">+1 978 555 4444</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
